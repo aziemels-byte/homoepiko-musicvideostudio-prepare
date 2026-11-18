@@ -1,0 +1,42 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+!.env.example
+
+# External projects and media assets (do not publish copyrighted songs or unreviewed portraits)
+vendor/
+assets/*.mp3
+assets/*.wav
+assets/*.flac
+assets/*.ogg
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+assets/*.mp4
+assets/*.mov
+
+# Work outputs, render results, local API exports and diagnostics
+project/generated_ui/
+project/renders/
+project/qc/
+project/preview*.json
+project/my_ltx23_api.json
+project/edit_plan.json
+project/doctor-report.json
+project/preparation-report.json
+project/edl-check-report.json
+project/source-workflow-inspection.json
+project/test-results.txt
+project/timeline.csv
+project/final.mp4
+*.log
+.DS_Store
+Thumbs.db

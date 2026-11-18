@@ -1,0 +1,8 @@
+{
+  "prompt": {"node": "REPLACE", "input": "value"},
+  "first_frame": {"node": "REPLACE", "input": "image"},
+  "audio": {"node": "REPLACE", "input": "audio"},
+  "audio_start": {"node": "REPLACE", "input": "start_index"},
+  "duration": {"node": "REPLACE", "input": "value_4"},
+  "output_prefix": {"node": "REPLACE", "input": "filename_prefix"}
+}
